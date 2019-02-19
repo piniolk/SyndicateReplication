@@ -1,0 +1,28 @@
+body {
+  font-size: 13px;
+}
+
+.colored.banner {
+  background-image: linear-gradient(to right, #D8254C, #496784);
+  font-family: Open sans, sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.black-background {
+  background-color: black;
+}
+
+
+.ui.inverted.menu.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  color: white:
+}
+
+.ui.inverted.topmidmenu.secondary.menu {
+  color: white;
+}
