@@ -6,6 +6,10 @@ hr {
   margin-bottom: 15px;
 }
 
+a {
+  color: white;
+}
+
 .colored.banner {
   background-image: linear-gradient(to right, #D8254C, #496784);
   font-family: Open sans, sans-serif;
@@ -22,6 +26,7 @@ hr {
 .grey-background {
   background-color: #282828;
   color: white;
+  a: white;
 }
 
 
@@ -32,7 +37,7 @@ hr {
   color: white:
 }
 
-.ui.inverted.topmidmenu.secondary.menu {
+.ui.inverted.topmidmenu.menu {
   color: white;
 }
 
@@ -44,6 +49,19 @@ hr {
   font-size: 12px;
   a:
   color: white;
+}
+
+.topfooter {
+  padding-top: 75px;
+  padding-bottom: 90px;
+}
+
+.nobottom {
+  margin-bottom: 5px;
+}
+
+.notop {
+  margin-top: 5px;
 }
 
 .slideshow.element1 {
