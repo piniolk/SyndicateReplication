@@ -45,7 +45,7 @@ a {
 }
 
 .ui.grid.productitem {
-  height:335.25px;
+  height:336px;
   width: 271px;
 }
 
@@ -71,8 +71,13 @@ a {
   margin-top: 5px;
 }
 
-.productdivide {
+.productdivider {
   margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.productdivider2 {
+  margin-bottom: 60px;
   margin-top: 20px;
 }
 
@@ -81,16 +86,32 @@ a {
   margin-top: 40px;
 }
 
+.producttext a {
+  color: black !important;
+}
+
+.pricetext {
+  color: #C0C0C0;
+  font-size: 12px;
+}
+
+.producttext {
+  font-family: 'montserrat', sans-serif;
+}
+
+.toprightimg {
+
+}
+
 .fce1 {
   background: url('https://cdn.shopify.com/s/files/1/0077/5352/collections/mens_bigS_back_black_4bfe22e2-e87e-4b45-bd19-606c4f1b8d67_grande.jpg?v=1503686058') no-repeat;
-  background-size: 271px 335px;
+  background-size: 271px 336px;
 }
 
 .fce2 {
   background: url('https://cdn.shopify.com/s/files/1/0077/5352/collections/LTS_tee_black_womens_no_logo_grande.jpg?v=1505754859') no-repeat;
-  background-size: 271px 335px;
+  background-size: 271px 336px;
 }
-
 
 .slideshow.element1 {
   image: https://cdn.shopify.com/s/files/1/0077/5352/t/6/assets/slide1.jpg?7805528210679224734;

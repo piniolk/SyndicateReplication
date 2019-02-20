@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript"
           src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
@@ -15,6 +16,7 @@
 <div class="colored banner">
   EXPLORE EVERYTHING / ADVENTURE EVERYWHERE - <b>VENTURE</b> / WE SHIP WORLD-WIDE
 </div>
+
 
 <div>
   <div class="black-background">
@@ -39,12 +41,11 @@
       </a>
     </div>
   </div>
-
-  <!-- fix log
-  <div class="ui divider">
-    <image src="https://cdn.shopify.com/s/files/1/0077/5352/t/6/assets/logo.png?7805528210679224734"></image>
-  </div> -->
-
+  <div class="logo black-background">
+    <a href="index.html" class="ui centered grid" style="padding-bottom: 45px; margin-top: -35px">
+      <img class="ui bottom aligned image"
+           src="https://cdn.shopify.com/s/files/1/0077/5352/t/6/assets/logo.png?7805528210679224734"></a>
+  </div>
   <div class="ui sticky">
     <div class="ui center aligned black-background grid">
       <div class="ui sticky inverted topmidmenu menu">
@@ -70,9 +71,6 @@
   <div class="hidden content">
     <img src="https://cdn.shopify.com/s/files/1/0077/5352/t/6/assets/slide2.jpg?7805528210679224734" class="ui image">
   </div>
-  <!--  <div class="hidden content">
-      <img src="https://cdn.shopify.com/s/files/1/0077/5352/t/6/assets/slide3.jpg?7805528210679224734" class="ui image">
-    </div>-->
 </div>
 
 <script>  $('.slideshow.element1').transition('fade');</script>
@@ -87,10 +85,65 @@
 
 <div class="ui container productsmenu">
   <div class="ui horizontal divider">LATEST ADDITIONS</div>
-  <div class="ui horizontal divider productdivide">FEATURED COLLECTIONS</div>
+  <div class="ui center aligned grid">
+    <div class="ui center aligned grid productdivider">
+      <div class="column">
+        <div class="row">
+          <a class="ui image" href="https://us.syndicateoriginal.com/products/stealth-monogram-snapback-hat">
+            <image
+                src="https://cdn.shopify.com/s/files/1/0077/5352/products/Stealth_Monogram_Snapback_01_large.jpg?v=1548259654"
+                style="width: 271px; height:336px"></image>
+          </a>
+        </div>
+        <div class="row">
+          <div class="text producttext"><a
+              href="https://us.syndicateoriginal.com/products/stealth-monogram-snapback-hat"><b>SYNDICATE ORIGINAL
+            US</b></a></div>
+          <div class="text producttext"><a
+              href="https://us.syndicateoriginal.com/products/stealth-monogram-snapback-hat"><b>STEALTH MONOGRAM
+            SNAPBACK HAT</b></a></div>
+          <div class="text pricetext producttext">$25.00</div>
+        </div>
+      </div>
+    </div>
+    <div class="ui center aligned grid productdivider">
+      <div class="column">
+        <div class="row">
+          <a class="ui image">
+            <image src="https://cdn.shopify.com/s/files/1/0077/5352/products/blueprint-front_large.jpg?v=1541708200"
+                   style="width: 271px; height:336px">
+            </image>
+          </a>
+        </div>
+        <div class="row">
+          <div class="text producttext"><a><b>SYNDICATE ORIGINAL</b></a></div>
+          <div class="text producttext"><a><b>BLUEPRINT HOODIE</b></a></div>
+          <div class="text pricetext producttext">$55.00</div>
+        </div>
+      </div>
+    </div>
+    <div class="ui center aligned grid productdivider">
+      <div class="column">
+        <div class="row">
+          <a class="ui image">
+            <image
+                src="https://cdn.shopify.com/s/files/1/0077/5352/products/mens_CoA_hoodie_back_large.jpg?v=1539785708"
+                style="width: 271px; height:336px"><a class="ui black right corner label" style="font-size: 10px">SOLD
+              OUT</a></image>
+          </a>
+        </div>
+        <div class="row">
+          <div class="text producttext"><a><b>SYNDICATE ORIGINAL</b></a></div>
+          <div class="text producttext"><a><b>"COAT OF ARMS" HOODIE</b></a></div>
+          <div class="text pricetext producttext">FROM $50.00-$56.00</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui horizontal divider">FEATURED COLLECTIONS</div>
   <div class="ui center aligned grid">
     <div class="ui secondary menu">
-      <div class="fce1">
+      <div class="fce1 productdivider">
         <div class="ui grid productitem">
           <div class="middle aligned column">
             <div class="white-background">
@@ -104,7 +157,7 @@
           </div>
         </div>
       </div>
-      <div class="fce2">
+      <div class="fce2 productdivider">
         <div class="ui grid productitem">
           <div class="middle aligned column">
             <div class="white-background">
@@ -120,7 +173,6 @@
       </div>
     </div>
   </div>
-</div>
 </div>
 
 <!--Bottom Menu-->
@@ -174,8 +226,7 @@
 </div>
 
 <script>$('.ui.dropdown').dropdown();</script>
-
-
 <script>$('.ui.sticky').sticky();</script>
+
 </body>
 </html>
